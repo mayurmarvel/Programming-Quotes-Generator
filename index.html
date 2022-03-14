@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b476f;">
+ 
+    <script src="https://cdn.tailwindcss.com"></script>  <!-- Individual styling -->
+    <link rel="stylesheet" href="style.css">  <!-- Background and Animated Shapes-->
+    <title>Programming Quotes Generator</title>
+</head>
+<body onload="generate()">
+
+
+    <div id="quote-section" class="relative h-[50vh]  flex justify-center items-center">
+        <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 m-7 p-5 xl:p-10 flex justify-center items-center flex-col rounded-xl drop-shadow-xl">
+          <h1 id="quote-text" class="text-3xl text-white">Don't blame me for the fact that competent programming will be too difficult for "the average programmer" — you must not fall into the trap of rejecting a surgical technique because it is beyond the capabilities of the barber in his shop around the corner.</h1>
+          <h3 id="quote-author" class="self-end mr-6 text-xl mt-3 text-white">- Someone Special</h3>
+        </div>
+      </div>
+      <div id="button-section" class=" h-[30vh]  flex justify-center items-end">
+        <button type="button" onclick="generate()" class="z-10 inline-flex items-center justify-center px-4 py-3 bg-blue-600 border border-transparent rounded-md font-semibold capitalize text-white hover:bg-red-400 disabled:opacity-25 transition text-xl hover:drop-shadow-lg">🎉 Next Quote</button>
+      </div>
+      <div id="footer-section" class="z-10 relative h-[20vh] text-white flex justify-center items-end pb-1">
+        <p>Made with 💗 <a target="_blank" href="https://github.com/mayurmarvel">by Mayur</a> | Credits :  <a class="-z-20" target="_blank" href="https://programming-quotes-api.herokuapp.com/">API Link</a> </p>
+       
+      </div>
+      <script src="./script.js"></script>
+
+      <!-- Animated CSS Background -->
+
+      <ul class="circles z-0">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+
+      <!-- Animated CSS Background -->
+
+<!-- CREDITS
+- tailwindcss
+- ProgrammingQuotesApp [https://programming-quotes-api.herokuapp.com]
+- GradientCSS [http://www.gradientcss.com/]
+- Animated BG [https://codepen.io/mohaiman/pen/MQqMyo] -->
+
+</html>
